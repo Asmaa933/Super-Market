@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7244B7592264B985004A810B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7244B7582264B985004A810B /* AddViewController.swift */; };
 		726D11BB226347DC00A7CD38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D11BA226347DC00A7CD38 /* AppDelegate.swift */; };
-		726D11BD226347DC00A7CD38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D11BC226347DC00A7CD38 /* ViewController.swift */; };
+		726D11BD226347DC00A7CD38 /* SuperMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D11BC226347DC00A7CD38 /* SuperMarketViewController.swift */; };
 		726D11C0226347DC00A7CD38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726D11BE226347DC00A7CD38 /* Main.storyboard */; };
 		726D11C2226347DE00A7CD38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726D11C1226347DE00A7CD38 /* Assets.xcassets */; };
 		726D11C5226347DE00A7CD38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726D11C3226347DE00A7CD38 /* LaunchScreen.storyboard */; };
+		726D11CD2263E6AB00A7CD38 /* ItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D11CC2263E6AB00A7CD38 /* ItemsModel.swift */; };
+		726D11CF2263F27200A7CD38 /* HelpingMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D11CE2263F27200A7CD38 /* HelpingMethods.swift */; };
+		726D11D12263FDF500A7CD38 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D11D02263FDF500A7CD38 /* SecondViewController.swift */; };
+		726D11D52264013D00A7CD38 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D11D42264013D00A7CD38 /* ItemTableViewCell.swift */; };
+		726D11D7226402BF00A7CD38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D11D6226402BF00A7CD38 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7244B7582264B985004A810B /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		726D11B7226347DC00A7CD38 /* Super Market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Market.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		726D11BA226347DC00A7CD38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		726D11BC226347DC00A7CD38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		726D11BC226347DC00A7CD38 /* SuperMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarketViewController.swift; sourceTree = "<group>"; };
 		726D11BF226347DC00A7CD38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		726D11C1226347DE00A7CD38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		726D11C4226347DE00A7CD38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		726D11C6226347DE00A7CD38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726D11CC2263E6AB00A7CD38 /* ItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsModel.swift; sourceTree = "<group>"; };
+		726D11CE2263F27200A7CD38 /* HelpingMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpingMethods.swift; sourceTree = "<group>"; };
+		726D11D02263FDF500A7CD38 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		726D11D42264013D00A7CD38 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		726D11D6226402BF00A7CD38 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +67,35 @@
 			isa = PBXGroup;
 			children = (
 				726D11BA226347DC00A7CD38 /* AppDelegate.swift */,
-				726D11BC226347DC00A7CD38 /* ViewController.swift */,
+				726D11D32263FE0C00A7CD38 /* Models */,
+				726D11D22263FDFE00A7CD38 /* Controllers */,
 				726D11BE226347DC00A7CD38 /* Main.storyboard */,
 				726D11C1226347DE00A7CD38 /* Assets.xcassets */,
 				726D11C3226347DE00A7CD38 /* LaunchScreen.storyboard */,
 				726D11C6226347DE00A7CD38 /* Info.plist */,
+				726D11CE2263F27200A7CD38 /* HelpingMethods.swift */,
+				726D11D6226402BF00A7CD38 /* Constants.swift */,
 			);
 			path = "Super Market";
+			sourceTree = "<group>";
+		};
+		726D11D22263FDFE00A7CD38 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				726D11BC226347DC00A7CD38 /* SuperMarketViewController.swift */,
+				726D11D02263FDF500A7CD38 /* SecondViewController.swift */,
+				726D11D42264013D00A7CD38 /* ItemTableViewCell.swift */,
+				7244B7582264B985004A810B /* AddViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		726D11D32263FE0C00A7CD38 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				726D11CC2263E6AB00A7CD38 /* ItemsModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				726D11BD226347DC00A7CD38 /* ViewController.swift in Sources */,
+				726D11BD226347DC00A7CD38 /* SuperMarketViewController.swift in Sources */,
+				726D11CD2263E6AB00A7CD38 /* ItemsModel.swift in Sources */,
+				7244B7592264B985004A810B /* AddViewController.swift in Sources */,
+				726D11CF2263F27200A7CD38 /* HelpingMethods.swift in Sources */,
+				726D11D12263FDF500A7CD38 /* SecondViewController.swift in Sources */,
+				726D11D7226402BF00A7CD38 /* Constants.swift in Sources */,
+				726D11D52264013D00A7CD38 /* ItemTableViewCell.swift in Sources */,
 				726D11BB226347DC00A7CD38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
